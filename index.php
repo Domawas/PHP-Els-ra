@@ -36,6 +36,25 @@
         echo gettype($osszeg);
         echo "<br>A két szám összege: $osszeg";
         var_dump($GLOBALS); 
+        //logikai típus
+        echo "<br>";
+        $logikai1 = true;
+        $logikai2 = false;
+        echo "<br>A két logikai érték: ".$logikai1." ".$logikai2; //csak a true jelenik meg. (1)
+        echo "<br>";
+        //lista
+        $a = array("red", "green", "blue");
+        print_r($a);
+
+        $tomb0 = array(1,2,3,4,5); //def lista
+        $tomb1 = array();
+        $tomb2[0] = "Ady Endre"; //direktbe hoztuk létre az elemeket 
+        $tomb2[1] = "József Attila";
+        $tomb3 = ["Milan Kundera", "Hermann Hesse"];
+        echo "<br>Tömb2: ";
+        print_r($tomb2);
+
+
     ?>
     <p>Ezta a HTML írta</p>
 </body>
