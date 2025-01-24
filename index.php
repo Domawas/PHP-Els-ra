@@ -54,6 +54,12 @@
         echo "<br>Tömb2: ";
         print_r($tomb2);
 
+        echo "<br>Tömb2: ";
+        $tomb2[] = "Tóth Árpád";
+        array_push($tomb3, "Shakespeare");
+        print_r($tomb2);
+        echo "<br>Tömb3: ";
+        print_r($tomb3);
 
     ?>
     <p>Ezta a HTML írta</p>
